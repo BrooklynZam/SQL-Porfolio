@@ -1,3 +1,28 @@
+CUSTOMER AND ORDER ANALYTICS PROJECT
+
+QUESTIONS:
+
+Q1: How many many unique orders were placed in January? 
+In other words, how many distinct order ids do we have?
+
+Q2: How many of those orders were for an iPhone?
+
+Q3: Select the customer account numbers for all the orders that were placed in February.
+
+Q4: Which product was the cheapest one sold in January, and what was the price?
+
+Q5: What is the total revenue for each product sold in January?
+
+Q6: Which products were sold in February at 548 Lincoln St, Seattle, WA 98101, 
+how many of each were sold, and what was the total revenue?
+
+Q7: How many customers ordered more than 2 products at a time in February, 
+and what was the average amount spent for those customers?
+
+
+RESULTS :
+
+
 SELECT * FROM JanSales LIMIT 20;
 
 SELECT COUNT(distinct orderid)
